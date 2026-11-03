@@ -1,0 +1,32 @@
+# Private settings and credentials
+.env
+**/.env
+**/.env.local
+**/.env.*.local
+!.env.example
+!**/.env.example
+# Data and generated secrets
+# Installed packages and caches
+.venv/
+**/.venv/
+**/.venv-*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vercel/
+node_modules/
+client/dist/
+client/scripts/config.generated.js
+# Self-hosted optimized WOFF2 fonts are part of the portable source.
+# Do not commit unoptimized source font bundles.
+client/assets/fonts/**/*.ttf
+client/assets/fonts/**/*.otf
+# Packaging and logs
+*.zip
+*.db
+*.sqlite
+*.sqlite3
+*.log
+.DS_Store
